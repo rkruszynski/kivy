@@ -1,0 +1,24 @@
+{
+    "Wysoki": {
+        "spanish": "Alto",
+        "sentences": {
+            "Moj ojciec jest wysoki": "Mi padre es alto",
+            "Ten dom jest bardzo wysoki": "Esta casa es muy alta"
+        },
+        "difficulty": {
+            "level": "6",
+            "next_active": "2023-02-20 19:17:09.043274"
+        }
+    },
+    "Ojciec": {
+        "spanish": "Abuelo",
+        "sentences": {
+            "Moj ojciec uczy sie angielskiego": "Mi padre aprende ingles",
+            "Ucze sie angielskiego poniewaz chce zamieszkac w Hiszpanii": "Aprendo espanol porque quiero vivir en Espanola"
+        },
+        "difficulty": {
+            "level": null,
+            "next_active": null
+        }
+    }
+}

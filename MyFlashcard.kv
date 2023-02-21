@@ -1,0 +1,23 @@
+BoxLayoutMain
+
+<BoxLayoutMain>:
+    orientation: "vertical"
+
+    BoxLayoutTop
+        size_hint: 1, 3
+        Label:
+            text: root.word
+
+    BoxLayoutBottom
+        size_hint: 1, 0.5
+        Button:
+            text: "Very hard"
+            on_press: root.get_random_word()
+        Button:
+            text: "Hard"
+        Button:
+            text: "Normal"
+        Button:
+            text: "Easy"
+        Button:
+            text: "Very easy"
