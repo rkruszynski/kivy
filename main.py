@@ -12,18 +12,16 @@ from random import randint
 
 class BoxLayoutMain(BoxLayout):
 
-    word = StringProperty("foo")
+    word = StringProperty("Hello!")
 
     def clicked(self):
         print("udalo sie")
 
     def get_random_int(self):
+        # Just for debuging purposes
         return str(randint(1, 20))
 
     def get_random_word(self):
-        # with open("word.txt", "w") as last_word:
-        #     word = words.return_random_word()
-        #     last_word.write(word)
         word = words.return_random_word()
         self.word = word
         return word
@@ -42,20 +40,5 @@ class MainWidged(Widget):
 
 class MyFlashcardApp(App):
     pass
-    # def build(self):
-    #     content = words.set_difficulty('r', "Wysoki", "6")
-    #     words.save_file('w', content)
-    #     word = words.return_random_word()
-    #     return Label(text=word)
-
-    def get_spanish_translation(self, word):
-        return words.return_spain_translation(word)
-
-    # def get_random_int(self):
-    #     from random import randint
-    #     return randint(1, 20)
-
-    def get_random_word(self):
-        return words.return_random_word()
 
 MyFlashcardApp().run()
