@@ -1,0 +1,4 @@
+word.txt
+.idea
+__pycache__/
+words_dictionary_backup.json
